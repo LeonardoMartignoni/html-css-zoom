@@ -2,6 +2,7 @@
 
 body {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Main Content */
@@ -46,6 +47,7 @@ main>.view-settings {
     left: 0;
     background-color: rgba(0, 0, 0, .5);
     padding: 5px;
+    font-size: 14px;
 }
 
 /* Footer */
@@ -61,6 +63,12 @@ nav i {
     font-size: 30px;
 }
 
+.left-footer-menu,
+.center-footer-menu {
+    display: flex;
+    align-items: center;
+}
+
 .footer-setting-button {
     display: inline-block;
     text-align: center;
@@ -69,7 +77,18 @@ nav i {
 
 .footer-setting-button>.footer-setting-info {
     display: block;
+    font-size: 14px;
     margin-top: 5px;
+}
+
+.footer-setting-button-more {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fa-chevron-up {
+    font-size: 12px;
+    line-height: 80px;
 }
 
 .end-meeting-button {
