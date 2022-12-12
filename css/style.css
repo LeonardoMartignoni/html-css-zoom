@@ -8,7 +8,7 @@ body {
 
 main {
     background-color: black;
-    height: 100vh;
+    height: calc(100vh - 80px);
     position: relative;
     padding: 60px;
 }
@@ -46,4 +46,36 @@ main>.view-settings {
     left: 0;
     background-color: rgba(0, 0, 0, .5);
     padding: 5px;
+}
+
+/* Footer */
+
+footer nav {
+    display: flex;
+    height: 80px;
+    background-color: #222222;
+    justify-content: space-between;
+}
+
+nav i {
+    font-size: 30px;
+}
+
+.footer-setting-button {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.footer-setting-button>.footer-setting-info {
+    display: block;
+    margin-top: 5px;
+}
+
+.end-meeting-button {
+    height: 100%;
+    padding: 0 20px;
+    background-color: #4A4A4A;
+    color: red;
+    font-weight: bold;
 }
